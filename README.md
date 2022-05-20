@@ -5,9 +5,12 @@ After building the program to play TicTacToe against an agent playing one of the
 ./game <search option> [-t]
 where <search option> is a required argument and is one of the following
   
--mm for MiniMax\n
+-mm for MiniMax
+  
 -ab for Alpha-Beta Pruning
+  
 -hmm for Heuristic MiniMax with Alpha-Beta Pruning
+  
 -amm for Aggressive MiniMax
   
 and [-t] is an optional option to display the time that it took for the search to return an action. I recommend running with the -t parameter 
