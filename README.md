@@ -2,8 +2,9 @@
 
 To build the program simply type in make.
 After building the program to play TicTacToe against an agent playing one of the search algorithms type
-./game <search option> [-t]
-where <search option> is a required argument and is one of the following
+./game \<search option> [-t]
+  
+where \<search option> is a required argument and is one of the following
   
 -mm for MiniMax
   
